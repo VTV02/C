@@ -74,13 +74,14 @@ const int constantVar = 10; // Hằng số
 printf("%d\n", constantVar);
 ```
 ```
-Loại biến/dữ liệu	Bộ nhớ lưu trữ	Thời gian tồn tại
-Biến cục bộ	Stack	Trong phạm vi hàm hoặc khối lệnh
-Tham số hàm	Stack	Trong phạm vi hàm
-Biến toàn cục	Data Segment	Suốt chương trình
-Biến tĩnh (static)	Data Segment	Suốt chương trình
-Bộ nhớ cấp phát động (heap)	Heap	Tồn tại đến khi được free
-Hằng số (constants)	Read-only memory	Suốt chương trình
+Loại biến/dữ liệu |	Bộ nhớ lưu trữ |Thời gian tồn tại|
+|-----------------|----------------|-----------------|
+Biến cục bộ	|Stack| 	Trong phạm vi hàm hoặc khối lệnh
+Tham số hàm	|Stack|	Trong phạm vi hàm
+Biến toàn cục|	Data Segment|	Suốt chương trình
+Biến tĩnh (static)	|Data Segment|	Suốt chương trình
+Bộ nhớ cấp phát động| (heap)	Heap|	Tồn tại đến khi được free
+Hằng số (constants)	|Read-only memory|	Suốt chương trình
 ```
 
 
