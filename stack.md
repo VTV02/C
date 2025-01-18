@@ -32,7 +32,7 @@ void push(stack_t *stack,int item)
     printf("\nStack is Full!!!\n");
     return;
   }
-  stack->array[stack->++top]=item;
+  stack->array[++stack->top]=item;
   printf("\n%d is pushed to stack\n",item);
 }
 int pop(stack_t* stack)
@@ -42,7 +42,7 @@ int pop(stack_t* stack)
     printf("\nStack is Empty!!!\n");
     return INT_MIN;
   }
-  return stack->array[stack->--top];
+  return stack->array[stack->top--];
 }
 int seek(stack_t * stack)
 {
